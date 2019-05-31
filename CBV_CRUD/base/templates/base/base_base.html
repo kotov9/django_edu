@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		{% block title_block %}
+		{% endblock %}
+	</title>
+</head>
+<body>
+	<nav>
+		<a href="{% url 'base:home' %}">Home</a>
+		<a href="{% url 'base:list' %}">Schools</a>
+		<a href="{% url 'admin:index' %}">Admin</a>
+	</nav>
+	{% block body_block %}
+	{% endblock %}
+</body>
+</html>

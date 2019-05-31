@@ -1,0 +1,3 @@
+Demonstartion of basic CBV and CRUD principles in Django.
+Example of creating a new record, demonstration of it, updating and deleting using CRUD.
+Also there is a demonstartion of CBV basics.
